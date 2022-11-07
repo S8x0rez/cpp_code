@@ -1122,7 +1122,7 @@ for (auto& p : dir_it) {
 
 		/* ----------------------------------------------------------------- */
 		/* YUVファイルを読み込む */
-		read_image(img, fp_in, odname);
+		read_image(img, fp_in, openfname);
 
 		//---YUV変換
 
